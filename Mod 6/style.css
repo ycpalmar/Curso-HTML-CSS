@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    padding: 50px;
+    border: none;
+    background-color: #c8a2c8;
+    font-size: 15px;
+}
+
+.button:hover {
+    background-color:#a5d610;
+    color: #ffffff;
+}
+
+.button::before {
+    content: "Pasa por Encima";
+}
+
+.button:hover::before {
+    content: "¡Hecho!";
+}
