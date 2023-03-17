@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.btn-modern {
+    position: absolute;
+    top: 10%;
+    border: none;
+    background-color: #ff0080;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 50px;
+    color: #ffffff;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
+
+.btn-modern:hover {
+    background-color: blueviolet;
+    color: #ff0080;
+    box-shadow: 5px 5px 2px #ff0080;
+    transform: translatey(-5px);
+}
