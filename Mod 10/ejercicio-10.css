@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+body {
+    display:flex;
+}
+
+.barra-lateral {
+    display: flex;
+    flex-direction: column;
+    background-color: darksalmon;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+    gap: 10px;
+}
+
+.seccion-p {
+    display: flex;
+    flex-grow: 1;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+@media (max-width: 640px) {
+    
+    body {
+        flex-direction: column-reverse;}
+
+    .barra-lateral {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
